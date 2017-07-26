@@ -1,0 +1,129 @@
+.landing-container {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+
+    height: 100vh;
+
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #252629;
+    overflow: hidden;
+}
+
+.landing-sections {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.landing-section {
+    height: 100vh;
+    width: 100vw;
+}
+
+.landing-background {
+    position: relative;
+    height: 100vh;
+    /*filter: blur(5px);*/
+    z-index: -10;
+    margin: auto;
+    background-image: url("/stock1.jpg");
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+.landing-background video {
+    /*transform: scale(.5);*/
+}
+
+.section {
+    fex: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.welcome-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+
+    display: flex;
+    flex-direction: column;
+
+
+    justify-content: center;
+    align-items: center;
+
+    /*border: 2px solid red;*/
+}
+
+.welcome-item {
+    font-size: 48px;
+}
+
+.landing-wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    color: #b4b4b4;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 34px;
+
+    display: flex;
+    justify-content: center;
+
+    flex-basis: 100px;
+}
+
+.landing-name-and-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-name-and-caption .caption {
+    font-size: 16px;
+    color: #9b9b9b;
+}
+
+.landing-logo {
+    height: 75px;
+    width: 75px;
+    background-color: transparent;
+    background-image: url("/logo-white.png");
+    background-size: contain;
+}
+
+.menu {
+    flex: 1;
+    border: solid red 5px;
+}
+
+.landing-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1;
+}
+
+.section-1 {
+    position: absolute;
+
+}

@@ -1,0 +1,33 @@
+.affix-container {
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+.affix-box {
+    color: whitesmoke;
+    font-size: 72px;
+    min-height: 150px;
+    background-color: #34495e;
+}
+
+.affix-window {
+    border: 1px solid orangered;
+}
+
+.affix-window-row {
+    /*border: 1px solid midnightblue;*/
+}
+
+.affix-row-title {
+    background-color: #1abc9c;
+    width: 100%;
+    text-align: center;
+    /*border: 1px solid green;*/
+}
+
+.affix-row-content {
+    /*border: 1px solid cadetblue;*/
+    background-color: #b4b4b4;
+    height: 600px;
+
+}

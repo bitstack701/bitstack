@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    color: #b4b4b4;
+}
+
+.box {
+
+}
+
+.header {
+    background-color: rgba(0,0,0,.1);
+
+    flex-basis: 80px;
+}
+
+.main {
+    display: flex;
+
+    flex: 1;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+
+    flex-basis: 280px;
+    /*border: solid 1px red;*/
+    background-color: rgba(0,0,0,.1);
+}
+
+.sidebar .title {
+    display: flex;
+    justify-content: space-between;
+    /*border: solid 1px olive;*/
+}
+
+.sidebar .title .label {
+
+}
+
+.sidebar .title .actions {
+    
+}
+
+
+.sidebar .panel {
+    /*border: solid 1px olive;*/
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    /*border: solid 1px green;*/
+}
+
+.content .title {
+    /*border: solid 1px blueviolet;*/
+}
+
+.content .sub-menu {
+    /*border: solid 1px blueviolet;*/
+}
+
+.content .detail {
+    flex: 1;
+    /*border: solid 1px blueviolet;*/
+}
