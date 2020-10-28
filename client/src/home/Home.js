@@ -1,42 +1,33 @@
 import React from 'react'
 
-import Logo from '../logo/Logo'
-import Intro from './Intro'
-import GettingStarted from './GettingStarted'
+import Logo from 'logo/Logo'
+// import Intro from './Intro'
 
-const Home = React.createClass({
+const Home = () => {
 
-  render() {
-    const style = {}
+  return (
+    <div>
+      <Logo/>
+      <Splash/>
+      {/*<Intro/>*/}
+    </div>
+  )
+}
 
-    return (
-      <div style={style}>
-        <Logo/>
-        <Splash/>
-        <Intro/>
-        {/*<GettingStarted/>*/}
-      </div>
-    )
+
+const Splash = () => {
+  const style = {
+    width: '100vw',
+    height: '100vh',
+    backgroundImage: 'url("/stock1.jpg")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
   }
-})
+
+  return (
+    <div style={style}/>
+  )
+}
 
 
-const Splash = React.createClass({
-
-  render() {
-    const style = {
-      width: '100vw',
-      height: '100vh',
-      backgroundImage: 'url("/stock1.jpg")',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center'
-    }
-
-    return (
-      <div style={style}/>
-    )
-  }
-})
-
-
-export default Home;
+export default Home
